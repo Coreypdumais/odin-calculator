@@ -1,26 +1,36 @@
 #body {
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
   align-items: center;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  border: 5px solid #ffff00;
-  padding: 10px;
+}
+
+#display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid burlywood;
+}
+
+#integers {
+  display: flex;
+  flex-direction: row;
+  border: 5px solid cornflowerblue;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+#functions {
+  display: flex;
+  flex-direction: row;
+  border: 5px solid cornsilk;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
 }
 
 .numbers {
-  display: flex;
-}
-
-.button {
-  display: flex;
-  padding: 10px;
-  align-items: center;
-}
-
-.functions {
-  display: flex;
-  padding: 5px;
+  border: 2px solid red;
 }
